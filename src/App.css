@@ -23,6 +23,18 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.title {
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  display:flex;
+}
+.filterbutton{
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  display:flex;
+}
 
 .App-link {
   color: #61dafb;
