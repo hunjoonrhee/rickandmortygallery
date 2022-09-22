@@ -9,8 +9,14 @@ export default function App() {
     const [characters, setCharacters] = useState([]);
 
     const navigateNextPage = () =>{
-        setPage(page+1);
-        return page = page+1;
+        if(page < 42){
+            setPage(page+1);
+            page = page+1;
+        }else{
+            setPage(1);
+            page = 1;
+        }
+        return page;
     }
 
     useEffect(()=>{
